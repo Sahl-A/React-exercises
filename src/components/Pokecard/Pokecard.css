@@ -1,0 +1,13 @@
+.Pokecard {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    transition: all .3s ;
+}
+
+.Pokecard:hover {
+    box-shadow: none;
+}
