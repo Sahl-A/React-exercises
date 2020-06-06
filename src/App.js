@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import Pokedex from './pokemon/Pokedex/Pokedex';
-import StateClicker from './state clicker/StateClicker';
+// import Pokedex from './pokemon/Pokedex/Pokedex';
+// import StateClicker from './state clicker/StateClicker';
+import DiceEx from './dice exercise/RollDice';
 
 function App() {
   return (
     <div className="App">
-      <Pokedex />
+      {/* <Pokedex />
       <br />
       <StateClicker />
+      <br/> */}
+      <DiceEx />
     </div>
   );
 }
