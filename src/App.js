@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import FlibCoin from './coin flip/FlibCoin';
+import ColorsContainer from './color boxes/ColorsContainer';
+// import FlibCoin from './coin flip/FlibCoin';
 // import Pokedex from './pokemon/Pokedex/Pokedex';
 // import StateClicker from './state clicker/StateClicker';
 // import DiceEx from './dice exercise/RollDice';
@@ -14,7 +15,9 @@ function App() {
       <br/>
       {/* <DiceEx /> */}
       <br/>
-      <FlibCoin />
+      {/* <FlibCoin /> */}
+      <br/>
+      <ColorsContainer />
     </div>
   );
 }
