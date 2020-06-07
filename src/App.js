@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import ColorsContainer from './color boxes/ColorsContainer';
+import Hangman from './hangman/Hangman'
+// import ColorsContainer from './color boxes/ColorsContainer';
 // import FlibCoin from './coin flip/FlibCoin';
 // import Pokedex from './pokemon/Pokedex/Pokedex';
 // import StateClicker from './state clicker/StateClicker';
@@ -17,7 +18,9 @@ function App() {
       <br/>
       {/* <FlibCoin /> */}
       <br/>
-      <ColorsContainer />
+      {/* <ColorsContainer /> */}
+      <br/>
+      <Hangman />
     </div>
   );
 }
