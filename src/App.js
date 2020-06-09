@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Game from './lights out/Game/Game';
+import TodoList from './todo list/TodoList/TodoList';
+// import Game from './lights out/Game/Game';
 // import Hangman from './hangman/Hangman'
 // import ColorsContainer from './color boxes/ColorsContainer';
 // import FlibCoin from './coin flip/FlibCoin';
@@ -23,7 +24,9 @@ function App() {
       <br/>
       {/* <Hangman /> */}
       <br/>
-      <Game />
+      {/* <Game /> */}
+      <br/>
+      <TodoList />
     </div>
   );
 }

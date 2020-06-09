@@ -1,0 +1,21 @@
+.TodoItem {
+    padding: 0 1rem;
+}
+.TodoItem label {
+    display: block;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+.TodoItem input {
+    padding: .5rem 1rem;
+    border: none;
+}
+
+.TodoItem button {
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: red;
+}
