@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Game from './yahtzee/Game/Game';
+import DeckofCards from './lifecycle exercise/DeckofCards';
+// import Game from './yahtzee/Game/Game';
 // import TodoList from './todo list/TodoList/TodoList';
 // import Game from './lights out/Game/Game';
 // import Hangman from './hangman/Hangman'
@@ -12,7 +13,7 @@ import Game from './yahtzee/Game/Game';
 
 function App() {
   return (
-    <div className="Yahtzee">
+    <div className="App">
       {/* <Pokedex />
       <hr />
       <StateClicker />
@@ -28,8 +29,9 @@ function App() {
       <Game />
       <hr/>
       <TodoList />
-      <hr/> */}
-      <Game />
+      <hr/> 
+      <Game /> */}
+      <DeckofCards />
     </div>
   );
 }
