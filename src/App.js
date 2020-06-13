@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import TodoList from './todo list/TodoList/TodoList';
+import Game from './yahtzee/Game/Game';
+// import TodoList from './todo list/TodoList/TodoList';
 // import Game from './lights out/Game/Game';
 // import Hangman from './hangman/Hangman'
 // import ColorsContainer from './color boxes/ColorsContainer';
@@ -11,22 +12,24 @@ import TodoList from './todo list/TodoList/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Pokedex /> */}
-      <br />
-      {/* <StateClicker /> */}
-      <br/>
-      {/* <DiceEx /> */}
-      <br/>
-      {/* <FlibCoin /> */}
-      <br/>
-      {/* <ColorsContainer /> */}
-      <br/>
-      {/* <Hangman /> */}
-      <br/>
-      {/* <Game /> */}
-      <br/>
+    <div className="Yahtzee">
+      {/* <Pokedex />
+      <hr />
+      <StateClicker />
+      <hr/>
+      <DiceEx />
+      <hr/>
+      <FlibCoin />
+      <hr/>
+      <ColorsContainer />
+      <hr/>
+      <Hangman />
+      <hr/>
+      <Game />
+      <hr/>
       <TodoList />
+      <hr/> */}
+      <Game />
     </div>
   );
 }

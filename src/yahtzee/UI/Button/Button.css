@@ -1,0 +1,33 @@
+.Button {
+    font-size: 1.5rem;
+    padding: .3rem 1rem;
+    color: white;
+    font-weight: 100;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(
+      to right,
+      #91eae4 0%,
+      #7f7fd5 51%,
+      #91eae4 100%
+    );
+    border-radius: 0.5rem;
+    border: none;
+  }
+  
+  .Button:hover {
+    cursor: pointer;
+    background-position: right center;
+  }
+  
+  .Button:active,
+  .Button:focus {
+    outline: none;
+  }
+  
+  .Button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
