@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import DeckofCards from './lifecycle exercise/DeckofCards';
+import DadJokes from './dad jokes/DadJokes/DadJokes';
+// import DeckofCards from './lifecycle exercise/DeckofCards';
 // import Game from './yahtzee/Game/Game';
 // import TodoList from './todo list/TodoList/TodoList';
 // import Game from './lights out/Game/Game';
@@ -30,8 +31,9 @@ function App() {
       <hr/>
       <TodoList />
       <hr/> 
-      <Game /> */}
-      <DeckofCards />
+      <Game /> 
+      <DeckofCards /> */}
+      <DadJokes />
     </div>
   );
 }

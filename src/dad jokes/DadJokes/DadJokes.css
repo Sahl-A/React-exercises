@@ -1,0 +1,9 @@
+.DadJokes {
+    margin: 5rem auto;
+    width: 60rem;
+    height: 450px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    border-radius: 15px;
+    background: white;
+}

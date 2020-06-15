@@ -1,0 +1,16 @@
+.Joke {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem .5rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding: 1rem .5rem;
+}
+
+.Joke__message {
+    margin: 0 auto 0 0;
+    padding: 0 1rem;
+    font-size: 14px;
+    text-align: left;
+}
